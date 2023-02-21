@@ -1,19 +1,15 @@
-
-let b = +prompt('Введите число от 0 до 3');
-switch(b){
-    case 0:
-      console.log('Вы ввели число 0')   
-        break
-    case 1:
-      console.log('Вы ввели число 1')   
-      break
-    case 2:
-    case 3:
-      console.log('Вы ввели число 2 или число 3')   
-        break
-    default:
-      console.log('Не сработало')
-} 
+let b = 2
+let a = +prompt('введите число от 0 до 3')
+switch (true){
+  case a == b && a < 3:
+    console.log('верно')
+    break
+  case a != b && a < 3:
+  console.log('не верно')
+  break  
+  default:
+    console.log('не сработало')
+}
 
 
 
